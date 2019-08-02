@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/task-cabinet/precache-manifest.9d84ec1f7be7b8404dcc7e190e707315.js"
+  "/task-cabinet/precache-manifest.cffb5401aea60345ede1c98979826aa9.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "task-cabinet"});
