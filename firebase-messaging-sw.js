@@ -11,4 +11,5 @@ firebase.initializeApp({
 
 // Retrieve an instance of Firebase Messaging so that it can handle background messages.
 const messaging = firebase.messaging();
+messaging.useServiceWorker(navigator.serviceWorker);
 // [END initialize_firebase_in_sw]
