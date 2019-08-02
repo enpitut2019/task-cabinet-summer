@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/task-cabinet/js/chunk-vendors.8496ac47.js"
   },
   {
-    "revision": "631b880c072da1a4b70a",
-    "url": "/task-cabinet/js/app.57eff012.js"
+    "revision": "99dd5a48a3f88b7eb8db",
+    "url": "/task-cabinet/js/app.a4af8262.js"
   },
   {
     "revision": "5a29c6a80143ea3b0c3c",
     "url": "/task-cabinet/js/about.b1e9458d.js"
   },
   {
-    "revision": "8dcc840203dcc9efb686cb9db93aad77",
+    "revision": "18d6b185d36f502d25a3981657cba756",
     "url": "/task-cabinet/index.html"
   },
   {
-    "revision": "f1878d0a2670159b33333c8e1e10ea36",
+    "revision": "ac47b25e4406c71c1896f5d7f7880ea5",
     "url": "/task-cabinet/firebase-messaging-sw.js"
   },
   {
