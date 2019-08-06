@@ -8,11 +8,11 @@ self.__precacheManifest = [
     "url": "/task-cabinet/js/chunk-vendors.d34645a2.js"
   },
   {
-    "revision": "ae4e88f73dbb644b3681",
-    "url": "/task-cabinet/js/app.a8ccddaa.js"
+    "revision": "cac255157e050cf4aa40",
+    "url": "/task-cabinet/js/app.fbd7c6db.js"
   },
   {
-    "revision": "7cee572fd99cdc7d31793d4384ff363a",
+    "revision": "4810bef3001890cbadb6b987e726dd13",
     "url": "/task-cabinet/index.html"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/task-cabinet/css/chunk-vendors.010fb543.css"
   },
   {
-    "revision": "ae4e88f73dbb644b3681",
+    "revision": "cac255157e050cf4aa40",
     "url": "/task-cabinet/css/app.844de0e3.css"
   }
 ];
