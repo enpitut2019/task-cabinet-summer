@@ -25,15 +25,15 @@
                 <td>
                   <div class="estimate_time__input">
                     <span class="v-label theme--light">短い</span>
-                    <div class="estimate-time__slider">
-                      <v-slider
-                              v-model="todo.estimate"
-                              id="estimate-time"
-                              min="1"
-                              max="100"
-                              readonly="readonly"
-                      ></v-slider>
-                    </div>
+                    <v-progress-linear
+                            class="estimate-time__progress-linear mx-2"
+                            :value="todo.estimate"
+                            height="10"
+                            color="light-blue"
+                            rounded
+                            readonly
+                    ></v-progress-linear>
+
                     <span class="v-label theme--light">長い</span>
                   </div>
                 </td>
@@ -65,13 +65,13 @@
     align-items: center;
     display: flex;
   }
-  .estimate-time__slider {
+  .estimate-time__progress-linear {
     flex: 1;
   }
-  .estimate-time__slider .v-input__slot {
+  .estimate-time__progress-linear .v-input__slot {
     margin-bottom: 0;
   }
-  .estimate-time__slider .v-messages {
+  .estimate-time__progress-linear .v-messages {
     display: none;
   }
 </style>
