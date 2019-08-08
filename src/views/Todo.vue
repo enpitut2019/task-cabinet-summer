@@ -10,7 +10,7 @@
           <span class="pl-2 pr-2">[タスク]は空です</span>
           <v-icon>mdi-watch</v-icon>
         </div>
-        <v-card v-for="todo in sortedTodos" :key="todo.id">
+        <v-card v-for="todo in sortedTodos" :key="todo.id" class="mb-2">
           <v-card-title>{{ todo.name }}</v-card-title>
           <v-card-text>
             <v-simple-table class="todo-datails text-center">
